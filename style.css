@@ -1,0 +1,169 @@
+/* Typo */
+
+body {
+background: #fff;
+color: #444;
+font-family: 'Lato',sans-serif;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+letter-spacing: 0.5px;
+}
+
+input,textarea,select {
+font-family: 'Lato', sans-serif;
+font-size: 15px;
+width: 100%;
+letter-spacing: 0.5px;
+}
+p {padding-bottom: 15px}
+h1,h2,h3,h4,h5,h6 {
+font-weight: 900;
+word-spacing: 1px;
+margin-bottom: 30px;
+color: #333;
+}
+h1 {font-size: 50px;line-height: 60px;}
+h2 {font-size: 30px; line-height: 40px;}
+h3 {font-size: 20px}
+h4 {font-size: 16px}
+h5 {font-size: 14px}
+h6 {font-size: 12px}
+
+a {text-decoration: none;color: #ff6760;}
+a:hover {color: #ff6760;}
+
+p.intro{font-size: 24px;font-weight: 300;line-height: 34px;padding-bottom: 45px;}
+p.intro.big{font-size: 34px;line-height: 44px; padding-bottom: 30px;}
+
+.post-content ol, .post-content ul {list-style: none outside none; margin-bottom: 15px;}
+.post-content ol li:before, .post-content ul li:before {content: "."; font-size: 20px; width: 15px; height: 15px; line-height: 0; float: left; display: inline-block; margin-top: 6px; color: #ff6760;}
+.post-content ol li li, .post-content ul li li {font-size: 90%; margin-left: 15px;}
+.post-content ol ol, .post-content ul ul {margin-bottom: 0;}
+
+dl, dl.row {margin-bottom: 15px !important; overflow: hidden;}
+dl dt {font-weight: 600;}
+dl dd {margin-bottom: 5px !important;}
+
+. {padding: 10px; background: #fff; overflow: hidden;}
+
+.primarycolor {color: #ff6760 !important;}
+
+.coffee-container, .cream-container, .sugar-container {position: relative;}
+.coffee-container {background-color: #222; color: #ccc;}
+.sugar-container {background-color: #ff6760; color: #eee;}
+.coffee-container h1, .coffee-container h2, .coffee-container h3, .coffee-container h4, .coffee-container h5, .coffee-container h6 {color: #eee;}
+.sugar-container a, .sugar-container h1, .sugar-container h2, .sugar-container h3, .sugar-container h4, .sugar-container h5, .sugar-container h6 {color: #fff;}
+
+
+
+
+/* buttons */
+.btn-nav li > a, .btn {
+font-weight: 900;
+font-size: 12px;
+text-transform: uppercase;
+color: #FFF;
+display: inline-block;
+background-color: #ff6760;
+padding: 6px 20px;
+margin: 0;
+cursor: pointer;
+margin-bottom: 20px;
+width: auto;
+border: none;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+text-align: center;
+letter-spacing: 1px;
+}
+.btn-nav li > a:hover, a.btn:hover {color: #fff; background: #c95752;}
+.sugar-container .btn-nav li > a, .sugar-container .btn {background-color: #fff; color: #333;}
+.sugar-container .btn-nav li > a:hover, .sugar-container a.btn:hover {background: #ddd; color: #333;}
+
+.btn-nav li {margin-bottom: 15px;}
+.btn-nav:after {clear: both;}
+.btn-nav:after, .btn-nav:before {content: ""; display: table;line-height: 0;}
+.btn-nav li {display: inline-block; list-style-type: none;}
+.btn-nav li > a {margin: 0 5px;}
+.btn-nav.pull-right li > a {margin-right: 0; margin-left: 5px;}
+.btn {display: inline-block; border-radius: 5px; padding: 8px 12px; line-height: 15px; text-decoration: none; }
+.btn, .btn a {text-decoration: none;}
+
+.btn-nav li.active > a {background: #333 !important;}
+.coffee-container .btn-nav li.active > a {background: #eee !important; color: #333 !important;}
+.sugar-container .btn-nav li.active > a {color: #fff !important;}
+.btn.transparent {background: transparent !important; color: #333; }
+.coffee-container .btn.transparent {color: #fff;}
+.sugar-container .btn.transparent {color: #fff;}
+.btn.transparent:hover {color: #ff6760; }
+.sugar-container .btn.transparent:hover {color: #333; }
+
+
+.btn .glyphicons {
+line-height: 0;
+font-size: 18px;
+height: 4px;
+width: 26px;
+font-weight: 400 !important; 
+}
+.btn.icon .glyphicons {width: 17px;}
+
+
+/* Preview stuff */
+
+	
+#previewbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(44, 62, 80, 0.9);
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+#previewbar p {
+  font-size: 14px !important;
+  line-height: 61px !important;
+  padding: 0 14px !important;
+  margin: 0 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#previewbar p a {
+  color: #3498DB;
+}
+
+#previewbar p a:hover {
+  color: #2980B9;
+}
+
+#previewbar .btn-primary {
+  background: #3498DB;
+}
+
+#previewbar .btn-primary:hover {
+  background: #2980B9;
+}
+
+#previewbar .btn-link {
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#previewbar li {
+  float: left;
+  list-style-type: none;
+}
+
+#previewbar li.divider {
+  width: 1px;
+  height: 62px;
+  background: #fff;
+  opacity: 0.2;
+}
